@@ -41,6 +41,16 @@ User demographic information Browsing behavior Historical purchase data among ot
 5. Model Part
 6. Discussion & Conclusion
 
+## Result
+|Model|	Train accuracy|	Test accuracy|	precision|	recall|	f1|
+|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|
+|SVM	|0.874396	|0.871739	|0.871786	|0.867926	|0.869506|
+|	XGBoost Classifier	|0.987801	|0.948101	|0.947500	|0.947390	|0.947445|
+|Logistic	|0.814922	|0.823895	|0.822153	|0.820547	|0.821262|
+|Gausian	|0.814652	|0.822273	|0.821244	|0.817748	|0.819139|
+|KNN	|0.879803	|0.866063	|0.866697	|0.861508	|0.863510|
+|Random Forest	|1.000000	|0.947560	|0.946787	|0.947056	|0.946920|
+
 ## Conclusion
 **Comment:**
 
